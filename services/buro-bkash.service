@@ -1,0 +1,13 @@
+[Unit]
+Description=Buro Bkash
+After=network.target
+
+[Service]
+WorkingDirectory=/home/buro/service-apps/buro
+ExecStart=/usr/bin/java -jar gBankerDailyCollectionProcess-2020.jar 5000 bkash 192.192.210.151 gBankerBURO buroapk buroapk@#$2019 200
+MemoryAccounting=true
+CPUAccounting=Yes
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

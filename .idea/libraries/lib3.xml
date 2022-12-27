@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="lib3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/service-apps/gb/lib/javax.mail-1.6.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/gb/lib/gson-2.8.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/gb/lib/mssql-jdbc-6.1.0.jre8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

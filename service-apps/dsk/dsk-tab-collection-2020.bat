@@ -1,0 +1,1 @@
+java -jar gBankerTabCollection-2020.jar 30000 192.192.192.185\BURO gBankerDSK apps apps@#$2020 20

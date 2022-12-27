@@ -1,0 +1,11 @@
+[Unit]
+Description=GB Tab Collection
+After=network.target
+
+[Service]
+WorkingDirectory=/home/buro/service-apps/gb
+ExecStart=/usr/bin/java -jar gBankerTabCollection-2020.jar 30000 192.192.192.175\GB6 gBankerV2020 gb gb@#$2020 20
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

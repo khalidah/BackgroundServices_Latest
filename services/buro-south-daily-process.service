@@ -1,0 +1,13 @@
+[Unit]
+Description=Buro South Daily Process
+After=network.target
+
+[Service]
+WorkingDirectory=/home/buro/service-apps/buro-south
+ExecStart=/usr/bin/java -jar /home/buro/service-apps/buro-south/gBankerDailyCollectionProcess-2020.jar 30000 daily-loan-saving 192.192.210.151 gBankerBUROSouth buroapk buroapk@#$2019 100
+MemoryAccounting=true
+CPUAccounting=Yes
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

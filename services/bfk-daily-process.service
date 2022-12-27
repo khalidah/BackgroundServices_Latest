@@ -1,0 +1,13 @@
+[Unit]
+Description=DSK Daily Process
+After=network.target
+
+[Service]
+WorkingDirectory=/home/buro/service-apps/dsk
+ExecStart=/usr/bin/java -jar gBankerDailyCollectionProcess-2020.jar 30000 daily-loan-saving 192.192.192.164\mfi gBankerBKF apps apps@#$2020 100
+MemoryAccounting=true
+CPUAccounting=Yes
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

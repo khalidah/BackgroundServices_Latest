@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="buro">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/service-apps/buro/gBankerTabCollection-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/buro/tab-collection-2021-01.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/buro/gBankerDailyCollectionProcess-2020.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/buro/tab-collection-2021-02.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/buro/gBankerDailyCollectionProcess-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

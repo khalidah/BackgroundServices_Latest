@@ -1,0 +1,72 @@
+<div class="row">
+	<div class="col-md-6">
+		<h6 class="text-white">BURO TAB COLLECTION</h6>
+<textarea id="textAreaBuro" readonly class="text-success bg-black border-0 w-100"></textarea>
+</div>
+<div class="col-md-6">
+		<h6 class="text-white">BURO SOUTH TAB COLLECTION</h6>
+<textarea id="textAreaBuroSouth" readonly class="text-success bg-black border-0 w-100 h-75"></textarea>
+</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<h6 class="text-white">BURO NORTH TAB COLLECTION</h6>
+<textarea id="textAreaBuroNorth" readonly class="text-success bg-black border-0 w-100"></textarea>
+</div>
+<div class="col-md-6">
+		<h6 class="text-white">DSK TAB COLLECTION</h6>
+<textarea id="textAreaDsk" readonly class="text-success bg-black border-0 w-100 h-75"></textarea>
+</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<h6 class="text-white">VERC TAB COLLECTION</h6>
+<textarea id="textAreaVerc" readonly class="text-success bg-black border-0 w-100"></textarea>
+</div>
+<div class="col-md-6">
+		<h6 class="text-white">ADDIN TAB COLLECTION</h6>
+<textarea id="textAreaAddin" readonly class="text-success bg-black border-0 w-100 h-75"></textarea>
+</div>
+</div>
+<div class="row">
+	<div class="col-md-6">
+		<h6 class="text-white">BKF TAB COLLECTION</h6>
+<textarea id="textAreaBfk" readonly class="text-success bg-black border-0 w-100"></textarea>
+</div>
+<div class="col-md-6">
+		
+</div>
+</div>
+<style>
+textarea {
+    border: none;
+    overflow: hidden;
+    outline: none;
+	height:150px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+
+</style>
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

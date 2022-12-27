@@ -1,0 +1,12 @@
+[Unit]
+Description=Buro Test Tab Collection
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/java -jar /home/buro/service-apps/buro-test/gBankerTabCollection-1.6.jar 30000 192.192.192.151 gBankerBUROTest buroapk buroapk@#$2019 20
+Restart=always
+WorkingDirectory=/home/buro/service-apps/buro-test
+
+[Install]
+WantedBy=multi-user.target
+ 

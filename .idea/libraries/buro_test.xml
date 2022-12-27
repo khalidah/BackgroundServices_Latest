@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="buro-test">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/service-apps/buro-test/gBankerTabCollection-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/buro-test/tab-collection-2021-02.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/buro-test/gBankerDailyCollectionProcess-1.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

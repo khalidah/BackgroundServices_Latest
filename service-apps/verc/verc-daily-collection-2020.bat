@@ -1,0 +1,1 @@
+java -jar gBankerDailyCollectionProcess-2020.jar 30000 daily-loan-saving 192.192.192.188\MSSQLSERVER2016 gBankerVerc_Data apps apps@#$2020 100

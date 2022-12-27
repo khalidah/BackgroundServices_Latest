@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74a98199-a382-4706-9b20-93d8f27ee5c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/daily-process/src/main/java/com/company/nagadApiLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/daily-process/src/main/java/com/company/nagadApiLogProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/src/main/java/com/company/BkashApiLogProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/src/main/java/com/company/BkashApiLogProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/src/main/java/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/src/main/java/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/target/classes/com/company/BkashApiLogProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/target/classes/com/company/BkashApiLogProcess.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/target/classes/com/company/MyTask.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/target/classes/com/company/MyTask.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/target/gBankerDailyCollectionProcess-2020.jar" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/target/gBankerDailyCollectionProcess-2020.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daily-process/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily-process/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tab-collection/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tab-collection/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/tab-collection/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tab-collection/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/tab-collection/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="delegateBuildToMaven" value="true" />
+  </component>
+  <component name="ProjectId" id="2GzBPq3QgAlajwlBmKGpEVpycfz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "H:/gBanker App Service/Services/background_services_Latest",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74a98199-a382-4706-9b20-93d8f27ee5c6" name="Changes" comment="" />
+      <created>1667381511818</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667381511818</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

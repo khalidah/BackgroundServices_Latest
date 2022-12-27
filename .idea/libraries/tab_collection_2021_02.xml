@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="tab-collection-2021-02">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/tab-collection/target/tab-collection-2021-02.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

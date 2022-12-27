@@ -1,0 +1,12 @@
+[Unit]
+Description=Buro Test Daily Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/buro/service-apps/buro-test
+ExecStart=/usr/bin/java -jar gBankerDailyCollectionProcess-1.7.jar 30000 daily-loan-saving 192.192.192.151 gBankerBUROTest buroapk buroapk@#$2019 100
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+

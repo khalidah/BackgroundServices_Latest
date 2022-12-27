@@ -1,0 +1,1 @@
+java -jar gBankerTabCollection-2020.jar 30000 192.192.192.188\MSSQLSERVER2016 gBankerVerc_Data apps apps@#$2020 20

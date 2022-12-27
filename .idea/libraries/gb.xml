@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="gb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/service-apps/gb/tab-collection-2021-01.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/gb/gBankerTabCollection-2020.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/gb/tab-collection-2021-02.jar!/" />
+      <root url="jar://$PROJECT_DIR$/service-apps/gb/gBankerDailyCollectionProcess-2020.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

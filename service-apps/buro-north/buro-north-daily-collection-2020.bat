@@ -1,0 +1,1 @@
+java -jar gBankerDailyCollectionProcess-2020.jar 30000 daily-loan-saving 192.192.210.171\MFI gBankerBURONorth buroapk buroapk@#$2019 100

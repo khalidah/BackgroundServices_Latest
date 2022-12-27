@@ -1,0 +1,12 @@
+[Unit]
+Description=Verc Daily Process
+After=network.target
+
+[Service]
+WorkingDirectory=/home/buro/service-apps/verc
+ExecStart=/usr/bin/java -jar gBankerDailyCollectionProcess-2020.jar 30000 daily-loan-saving 192.192.192.188\MSSQLSERVER2016 gBankerVerc_Data apps apps@#$2020 100
+CPUAccounting=Yes
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

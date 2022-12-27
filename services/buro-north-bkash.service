@@ -1,0 +1,13 @@
+[Unit]
+Description=Buro North Bkash
+After=network.target
+
+[Service]
+WorkingDirectory=/home/buro/service-apps/buro-north
+ExecStart=/usr/bin/java -jar /home/buro/service-apps/buro-north/gBankerDailyCollectionProcess-2020.jar 15000 bkash 192.192.210.151\MFI gBankerBURONorth buroapk buroapk@#$2019 200
+MemoryAccounting=true
+CPUAccounting=Yes
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

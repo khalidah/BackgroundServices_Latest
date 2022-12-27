@@ -1,0 +1,106 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Monitor</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+  <style type="text/css">
+    div.service {
+      margin-bottom: 20px;
+    }
+
+    textarea {
+      height: 200px;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+    
+    .service,a{
+      cursor: pointer;
+    }
+    a.aqua{
+      color:aqua
+    }
+    .text-success{
+      color:darkkhaki !important;
+    }
+    .bg-success{
+      background-color: rgb(43, 73, 43) !important;
+    }
+    .bg-live{
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body class="bg-black">
+  <div class="container-fluid py-2">
+    <h3 class="pb-3">Service Monitor</h3>
+    <div id="app">
+      
+      <div class="row d-flex justify-content-around" v-if="!detail">
+        <h6 class="text-success">Tab Collection</h6>
+        <div :ref="s.id" class="service col-md-2  d-flex bg-success rounded 
+        align-items-center justify-content-center" style="width:100px; height:80px;" @click="showDetail(s)" v-for="s in services" :key="s.id">
+          <h6 class="text-white">\{{s.name}}</h6>
+          
+        </div>
+        <h6 class="text-success">Daily Process</h6>
+        <div :ref="s.id" class="service col-md-2  d-flex bg-success rounded 
+        align-items-center justify-content-center" style="width:100px; height:80px;" @click="showDetail(s)" v-for="s in dailyProcess" :key="s.id">
+          <h6 class="text-white">\{{s.name}}</h6>
+          
+        </div>
+        <h6 class="text-success">Bkash</h6>
+        <div :ref="s.id" class="service col-md-2  d-flex bg-success rounded 
+        align-items-center justify-content-center" style="width:100px; height:80px;" @click="showDetail(s)" v-for="s in bkash" :key="s.id">
+          <h6 class="text-white">\{{s.name}}</h6>
+          
+        </div>
+      </div>
+      <div class="w-100" v-if="detail">
+        
+          <div class="row d-flex flex-row justify-content-start m-2">
+              <div ref="service" class="service col-md-2  d-flex  bg-success rounded 
+              align-items-center justify-content-center" style="width:100px; height:80px;"  >
+                <h6 class="text-white">\{{detail.name}}</h6>
+                
+              </div>
+              <a class="aqua col-md-2" @click="close">Close</a>
+          </div>
+          <div class="col-md-12">
+          <textarea ref="txtDetail" id="detail" readonly class="w-100 bg-black " style="color:darkkhaki; margin-top: 0px; margin-bottom: 0px; height: 454px;">
+          </textarea>
+          </div>
+      </div>
+    </div>
+    <div class="copyright text-info position-fixed fixed-bottom mb-2">Developed By Mu. Himel</div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.3.1/socket.io.js"></script>
+  <script src="/assets/js/app.js"></script>
+</body>
+
+</html>

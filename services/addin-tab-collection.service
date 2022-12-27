@@ -1,0 +1,14 @@
+[Unit]
+Description=ADDIN Tab Collection
+After=network.target
+
+[Service]
+WorkingDirectory=/home/buro/service-apps/dsk
+ExecStart=/usr/bin/java -Xss125m -jar tab-collection-2021-02.jar 30000 192.192.192.194\MFI gBankerADDIN apps apps@#$2020 gbanker 50
+MemoryAccounting=true
+CPUAccounting=true
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
